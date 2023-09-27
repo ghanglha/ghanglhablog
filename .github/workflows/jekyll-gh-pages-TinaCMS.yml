@@ -31,9 +31,6 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build Jekyll with TinaCMS
         run: tinacms build && jekyll build
-        with:
-          source: ./
-          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
