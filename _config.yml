@@ -1,0 +1,33 @@
+# Site settings
+title: ghanglha
+tagline: ghanglha
+email: om
+description: ""
+logo_location: ""
+gatag: 
+
+permalink: /:categories/:title/
+baseurl:  # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
+
+collections:
+  womens:
+    output: true
+  pretraining:
+    output: true
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+#Other Global Configuration
+
+
+excerpt_separator: <!--more-->
+
+#show the jumbotron header on index page
+show_blog_header: true
