@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "jekyll build && tinacms build",
-    "dev": "tinacms dev -c \"bundle exec jekyll serve\""
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "tinacms build jekyll serve"
   },
   "keywords": [],
   "author": "",
