@@ -31,3 +31,13 @@ excerpt_separator: <!--more-->
 
 #show the jumbotron header on index page
 show_blog_header: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - cache/
