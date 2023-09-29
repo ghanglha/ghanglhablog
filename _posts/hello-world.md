@@ -1,7 +1,7 @@
 ---
-title: 'Hello, World!'
+title: Testing post
 layout: post
-category: tools
+category: highlights
 featuredImage: /images/lantern-1.jpg
 excerpt: |
   fdfsdfsdfsdfsdfdsfsdf

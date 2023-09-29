@@ -8,8 +8,8 @@ var config_default = defineConfig({
   token: "b77775cfc4609cb7c3ec4333c06fc65545f70c63",
   // Get this from tina.io
   build: {
-    outputFolder: "_sites",
-    publicFolder: "assets"
+    outputFolder: "admin",
+    publicFolder: "public"
   },
   media: {
     tina: {
